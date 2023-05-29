@@ -1,0 +1,27 @@
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.5rem;
+}
+#pic img{
+    width: 200px;
+    height: 175px;
+}
+#intro h2{
+font-size: 1rem;
+}
+.input{
+    width: 80%;
+
+}
+
+#send{
+    width: 20%;
+}
+#about{
+    overflow-y: scroll;
+}
+#services{
+ overflow-y: scroll;
+}
