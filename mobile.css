@@ -1,0 +1,162 @@
+
+     /* Common styles for all devices */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Styles specific to mobile devices */
+  @media only screen and (max-width: 530px) {
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 9999;
+    }
+  
+    .navbar ul {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 5px;
+    }
+  
+    .navbar ul li {
+      font-family: century;
+      font-size: 0.7rem; /* Adjust the font size as needed */
+      font-weight: bold;
+      margin: 5px;
+    }
+  
+    .navbar ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 8px 15px; /* Adjust the padding as needed */
+      transition: all 0.5s ease;
+    }
+  
+    .navbar ul li a:hover {
+      background-color: white;
+      color: black;
+      box-shadow: 0 0 10px white;
+    }
+  
+    #home {
+      padding-top: 60px;
+      height: 700px;
+      margin-top: -30px; /* Adjust the margin-top as needed */
+    }
+  
+    #home::before {
+      height: 700px;
+    }
+  
+    .main {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  
+    .headings {
+     padding-top: 38px;
+      font-size: 2rem;
+      
+    }
+  
+    .headings2 {
+      font-size: 1.2rem;
+      margin: 20px 0px;
+    }
+
+
+    
+  
+    #about {
+     
+      padding: 1px;
+      height: 800px;
+      margin-bottom: 0px;
+     
+    }
+    
+  
+    #pic {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #pic img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    #intro {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #intro h2 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+    #intro p{
+        font-size: .8rem;
+    }
+  
+    #services {
+      padding: 1px;
+      margin-top: 1px; /* Add margin-top to separate from the previous section */
+      padding-bottom: 10px;
+      height: 1600px;
+      margin-bottom: 0px;
+    }
+  
+    #services h2 {
+      margin-bottom: 10px;
+    }
+  
+    #contact {
+      padding: 30px;
+      margin-top: 2px; /* Add margin-top to separate from the previous section */
+    }
+  
+    #contact h2 {
+      margin-bottom: 10px;
+    }
+  
+    .box {
+      width: 100%;
+      margin: 10px 0px;
+    }
+    
+    .images {
+      width: 100%;
+    }
+  
+    .form {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    .input
+     {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+    }
+  
+    #send {
+      width: 30%;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  }
